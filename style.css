@@ -1,0 +1,119 @@
+/* ==== Reset and Base Styles ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #7760dd, #715da8, #747496);
+}
+
+.container {
+  background: #f7f7f8cc;
+  backdrop-filter: blur(8px);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #444;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #666;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #4329b6;
+  border-radius: 0.8rem;
+  outline: none;
+  font-size: 1rem;
+  background: #fafafd;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  border-color: #b3d9ff;
+  box-shadow: 0 0 8px rgba(179, 217, 255, 0.6);
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.options a {
+  color: #7a77d9;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.options a:hover {
+  color: #4f4bbd;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem;
+  background: #a3d8f4;
+  border: none;
+  border-radius: 1rem;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #91cde8;
+}
+
+.switch {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.switch a {
+  color: #ff8ba7;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.switch a:hover {
+  color: #ff5c80;
+}
